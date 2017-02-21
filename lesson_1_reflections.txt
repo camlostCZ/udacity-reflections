@@ -1,0 +1,35 @@
+1. How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Introducing bug means there was a change (mistake) made in the newer file.
+Listing changes only show potential sources of the bug.
+
+
+2. How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+3. What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Auto commits fill history with lots of unuseful entries.
+Committing manually prevents that. On the other hand, if you forget to commit, you'll have hard time when searching for bug source. 
+Not mentioning reverting of commits.
+
+4. Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Google Drive doesn't use multiple files for a single project. In fact, it doesn't know anything like a project, just single files.
+As git is typically used by programmers or developers who usually work on projects consisting of multiple related files,
+it make sense to record changes of these related (linked) files at once as change in one files may affect other files.
+
+4. How can you use the commands git log and git diff to view the history of files?
+
+git log --stat has been mentioned in this course already and provides a quick answer to the quiz.
+Thus the provided solutions doesn't make much sense.
+
+Regarding this particular question, I don't know what is expected.
+What are benefits of history in git? They provide quick way to see who made what change.
+
+5. How might using version control make you more confident to make changes that could break something?
+
+As there is an easy way back, one needn't to be worry about mistakes.
+
+6. Now that you have your workspace set up, what do you want to try using Git for?
+
+Storing versions of my projects. :-)
