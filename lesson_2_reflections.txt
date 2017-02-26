@@ -6,3 +6,26 @@
 
 Staging area allows you to include only a subset of files from the working directory.
 Which makes possible to make smaller, better commits.
+
+3. How can you use the staging area to make sure you have one commit per logical change?
+
+git status a git diff to check what is going to be commited.
+
+4. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+bug, new features, experiments
+
+5. How do the diagrams help you visualize the branch structure?
+
+well, they do visualize it.
+
+6. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+A single branch witch changes introduced in the merged branches.
+As the changes 'join' together. The merged branch can be deleted, by the way.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Manual work is rather tedious and prone to mistakes so it makes sense to let computer, i.e. git, do what can be done automatically.
+
+
